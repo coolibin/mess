@@ -8,6 +8,12 @@ public class App {
 		new Worker().doWork();
 		System.out.println("You will like it!");
 		
+		int i = 0;
+		
+		if (i == 0)
+		{
+			new Worker().doWork();
+		}
+		
 	}
-
 }
